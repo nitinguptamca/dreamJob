@@ -1,0 +1,26 @@
+package billionaire.nitin.kumar.gupta.arrayProbkems;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Given a binary array containing 0’s and 1’s, find the largest contiguous subarray with equal numbers of 0’s and 1’s.
+ * <p>
+ * Input : [0, 0, 1, 0, 1, 0, 0]
+ * Output: [0, 1, 0, 1] or [1, 0, 1, 0]
+ * <p>
+ * Input : [0, 0, 0, 0]
+ * Output: []
+ * <p>
+ * Note: Since an input can contain several largest subarrays with equal
+ * numbers of 0’s and 1’s, the code should return any one of them.
+ */
+public class LindLargestSubarray {
+    public static List<Integer> findLargestSubarray(List<Integer> nums) {
+        List<Integer> largestSubarray = new ArrayList<>();
+
+        // Write your code here...
+
+        return largestSubarray;
+    }
+}
